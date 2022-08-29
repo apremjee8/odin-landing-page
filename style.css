@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #f9faf8;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 60px;
+  background-color: #e5e7eb;
+}
+
+#author {
+  text-align: right;
+}
+
+button {
+  padding: 4px 12px;
+}
+
+.cta {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+#milkyway1 {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+}
+
+#milkyway2 {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+}
+
+.cta {
+  background-color: #3882f6;
+  margin: 50px 250px;
+  border-radius: 10px;
+  color: white;
+}
